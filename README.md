@@ -1,3 +1,3 @@
 # jaystilla.com
-//In Progress \n
+//In Progress
 Hosting Website through github
