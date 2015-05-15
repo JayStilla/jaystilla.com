@@ -19,6 +19,7 @@ li {
 a.one {
   display: block;
 }
+
 a.one:link {color:#ff0000;}
 a.one:visited {color:#0000ff;}
 a.one:hover {font-size:110%;}
@@ -31,10 +32,18 @@ a.one:hover {font-size:110%;}
 #nav li {
   display: table-cell;
   height: 87px;
-  width: 24.9266%;  /* (100 / numItems)% */
+  width: 24.9266%;
   line-height: 87px;
   text-align: center;
-  /*background: #ddd;*/
-  /*border-right: 1px solid #fff;*/
   white-space: nowrap;
-  }​
+}
+
+.exactCenter {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
