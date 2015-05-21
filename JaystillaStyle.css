@@ -1,6 +1,7 @@
 h1 {
   text-align: center;
   font-family: "Arial Black", Gadget, sans-serif;
+  color: #f0f0f0;
 }
 body{
   background-color: lightgrey;
@@ -24,18 +25,46 @@ a.one:link {color:#ff0000;}
 a.one:visited {color:#0000ff;}
 a.one:hover {font-size:110%;}
 #nav {
+  position: absolute;
+  left:50%; top:0;
+  margin-left: -375px;
   display: table;
   height: 87px;
-  width: 100%;
+  width: 750px;
+  list-style: none;
+}
+
+#navigation_container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+#nav a{
+  display: block;
+  text-align: center;
+  width: 150px;
+  text-decoration: none;
 }
 
 #nav li {
-  display: table-cell;
-  height: 87px;
-  width: 24.9266%;
-  line-height: 87px;
   text-align: center;
-  white-space: nowrap;
+  list-style: none;
+  display: block;
+  float: left;
+  margin: lem;
+}
+
+#nav li a {
+  text-shadow:0 2px 1px rgba(0,0,0,0.5);
+  display: block;
+  text-decoration: none;
+  color: #f0f0f0;
+  font-size: 1.6em;
+  margin: 0 .5em;
+}
+
+#nav li a:hover {
+  margin-top: 2px;
 }
 
 .exactCenter {
