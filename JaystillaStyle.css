@@ -4,7 +4,7 @@ h1 {
   color: #F5F5F5;
 }
 body{
-  background-color: lightgrey;
+  background-color: darkgrey;
 }
 p {
   text-align: center;
@@ -77,16 +77,19 @@ div.exactCenter {
 
 div.background{
   background-color: black;
+  margin-left: 100px;
+  margin-right: 100px;
   /* Set rules to fill background */
   min-height: 100%;
   min-width: 0px;
 
   /* Set up proportionate scaling */
-  width: 100%;
+
   height: auto;
 
   /* Set up positioning */
-  position: fixed;
+  position:absolute;
   top: 0;
   left: 0;
+  right: 0;
 }
