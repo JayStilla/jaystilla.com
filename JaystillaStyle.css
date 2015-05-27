@@ -63,10 +63,12 @@ a.one:hover {font-size:110%;}
   color: #f0f0f0;
   font-size: 1.6em;
   margin: 0 .5em;
+  border-style: solid;
+  border-width: 5px;
 }
 
 #nav li a:hover {
-  margin-top: 2px;
+  margin-top: 5px;
 }
 
 div.exactCenter {
