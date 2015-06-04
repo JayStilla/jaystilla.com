@@ -4,7 +4,9 @@ h1 {
   color: #F5F5F5;
 }
 body{
-  background-color: darkgrey;
+  height: 1000px;
+  background: linear-gradient(#19668f, white);
+  background-repeat: no-repeat;
 }
 p {
   text-align: center;
@@ -12,6 +14,7 @@ p {
 
 }
 ul {
+  
   list-style-type: none;
   margin: 0;
   padding: 0;
